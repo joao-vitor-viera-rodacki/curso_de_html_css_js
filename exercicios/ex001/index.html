@@ -3,28 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
+    <title>Hierarquia de textos</title>
     <style>
-        
         body {
-            background-color: whitesmoke;
+            background-color: rgb(163, 161, 158);
+            color: rgb(33, 34, 36);
+            font-family: cursive;
         }
-        h1 {
-        
+        .paragrafo_h1 {
             font-family: fantasy;
-            color: rgb(0, 0, 0);
-           
+            color: darkblue;
         }
-</style>
-</head>
+        .paragrafo_h2 {
+            font-family: initial;
+            color:   saddlebrown;
+        }
+        .paragrafo_h3 {
+            font-family: sans-serif;
+            color: teal;
+        }
 
+    </style>
+</head>
 <body>
-   
-    <h1>Olá,mundo!</h1>
-    <hr>
-    <h2>Hoje veremos como fazer coisas simples em html e css </h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat cumque reiciendis iure nisi modi praesentium minima vitae cupiditate omnis ad minus nihil repudiandae, provident excepturi at placeat animi velit cum?</p>
+    <h1 class="paragrafo_h1">Olá este é um exercicio</h1>
+    <p class="paragrafo_h1">Esté seria o texto do titolo principal &lt;h1&gt; </p>
+
+    <h2 class="paragrafo_h2">Olá , saiba que esse é um subtitulo do titolo principal !</h2>
+    <p class="paragrafo_h2"><strong>Este seria o texto do &lt;h2&gt; </strong></p>
+
+    <h3 class="paragrafo_h3">Olá, saiba que esse é um subtitolo do h2 ou seja um &lt;h3&gt;</h3>
+    <p class="paragrafo_h3">Texto de h3</p>
 </body>
 </html>
